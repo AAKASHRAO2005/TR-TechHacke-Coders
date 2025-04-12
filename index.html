@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Career Path Predictor</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="hero">
+    <nav>
+      <div class="logo">CareerPredictor</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#predict">Predict</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h2>Discover Your Perfect Career Path</h2>
+      <p>AI-powered insights to guide your future</p>
+      <a href="#predict" class="btn">Get Started</a>
+    </div>
+  </header>
+
+  <section class="section" id="about">
+    <h2>About</h2>
+    <p>We help students align their interests and academics with current industry trends using AI-powered suggestions.</p>
+    <img src="photo 2.png" class="section-img" alt="Tools Illustration">
+    
+  </section>
+
+  <section class="section" id="features">
+    <h2>Key Features</h2>
+    <div class="cards">
+      <div class="card">
+        <i class="fas fa-user-graduate"></i>
+        <h3>Student Analysis</h3>
+        <p>Understand your academic strengths and interests.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-lightbulb"></i>
+        <h3>Career Suggestions</h3>
+        <p>Get AI-driven recommendations tailored to you.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-chart-line"></i>
+        <h3>Job Trends</h3>
+        <p>Stay updated with in-demand skills and roles.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="tools">
+    <h2>Tools & Technologies</h2>
+    <ul class="tools-list">
+      <li><i class="fab fa-html5"></i> HTML5</li>
+      <li><i class="fab fa-css3-alt"></i> CSS3</li>
+      <li><i class="fab fa-js"></i> JavaScript</li>
+      <li><i class="fab fa-python"></i> Python (for AI logic)</li>
+    </ul>
+    <img src="photo 3.jpeg" class="section-img" alt="Tools Illustration">
+  </section>
+
+  <section class="section" id="predict">
+    <h2>Career Path Prediction</h2>
+    <p>Fill in your details and get personalized career suggestions!</p>
+    <form id="career-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="text" id="interests" placeholder="Your Interests (e.g. coding, design)" required />
+      <input type="number" id="marks" placeholder="Average Academic Score (%)" required />
+      <button type="submit" class="btn">Get Suggestion</button>
+    </form>
+    <div id="prediction-result"></div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <textarea rows="4" placeholder="Your Message..."></textarea>
+      <button class="btn" type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CareerPredictor. All rights reserved.</p>
+    <div class="socials">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
